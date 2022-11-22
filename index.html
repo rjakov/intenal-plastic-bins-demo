@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="./main.css" rel="stylesheet">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+      <div class="row">
+        <div class="col-8">
+          <a href="#" class="logo">
+            <img src="./assets/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="col-4 info_panel">
+          <img src="./assets/info.png" alt="logo">
+          <button class="btn btn-outline-secondary login-btn" id="login">Login</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <offer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 items">
+
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Choose object type
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <ul class="settings-object-type">
+                    <li class="type-choose active">
+                      <div class="object-type">
+                        <button class="type-btn" id="wall-panels">
+                          <img src="./assets/type/louvered-wall-panels.png" alt="type">
+                        </button>
+                        <p>Louvered Wall Panels</p>
+                      </div>
+                    </li>
+                    <li class="type-choose">
+                      <div class="object-type">
+                        <button class="type-btn" id="racks">
+                          <img src="./assets/type/free-standing-racks.png" alt="type">
+                        </button>
+                        <p>Free-standing racks (on floor)</p>
+                      </div>
+                    </li>
+                    <li class="type-choose">
+                      <div class="object-type">
+                        <button class="type-btn" id="wire-shelving">
+                          <img src="./assets/type/wire-shelving-units.png" alt="type">
+                        </button>
+                        <p>Free-standing wire shelving units</p>
+                      </div>
+                    </li>
+                    <li class="type-choose">
+                      <div class="object-type">
+                        <button class="type-btn" id="rails">
+                          <img src="./assets/type/rails.png" alt="logo">
+                        </button>
+                        <p>Rails</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Choose bins
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <ul class="settings-object-beans-color">
+                    <li class="size-choose active">
+                      <div class="object-type">
+                        <button class="type-btn" id="size1">
+                          <img src="./assets/size/size1.png" alt="size1">
+                        </button>
+                        <p>Size 1</p>
+                      </div>
+                    </li>
+                    <li class="size-choose">
+                      <div class="object-type">
+                        <button class="type-btn" id="size2">
+                          <img src="./assets/size/size2.png" alt="size2">
+                        </button>
+                        <p>Size 2</p>
+                      </div>
+                    </li>
+                    <li class="size-choose">
+                      <div class="object-type">
+                        <button class="type-btn" id="size3">
+                          <img src="./assets/size/size3.png" alt="size2">
+                        </button>
+                        <p>Size 3</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Choose colors
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <ul class="settings-object-beans-color">
+                    <li class="color-choose active">
+                      <div class="object-type">
+                        <button class="color-btn" id="light-green">
+                          <img src="./assets/colors/color1.png" alt="light-green">
+                        </button>
+                      </div>
+                    </li>
+                    <li class="color-choose">
+                      <div class="object-type">
+                        <button class="color-btn" id="pink">
+                          <img src="./assets/colors/color2.png" alt="pink">
+                        </button>
+                      </div>
+                    </li>
+                    <li class="color-choose">
+                      <div class="object-type">
+                        <button class="color-btn" id="lilac">
+                          <img src="./assets/colors/color3.png" alt="lilac">
+                        </button>
+                      </div>
+                    </li>
+                    <li class="color-choose">
+                      <div class="object-type">
+                        <button class="color-btn" id="turquoise">
+                          <img src="./assets/colors/color4.png" alt="turquoise">
+                        </button>
+                      </div>
+                    </li>
+                    <li class="color-choose">
+                      <div class="object-type">
+                        <button class="color-btn" id="grey">
+                          <img src="./assets/colors/color5.png" alt="grey">
+                        </button>
+                      </div>
+                    </li>
+                    <li class="color-choose">
+                      <div class="object-type">
+                        <button class="color-btn" id="indigo">
+                          <img src="./assets/colors/color6.png" alt="indigo">
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-8 preview">
+          <div class="btn-group-zoom">
+            <button type="button" class="btn btn-outline-secondary zoom_group" id="plus">
+              <img src="./assets/plus.png" alt="expand">
+            </button>
+            <button type="button" class="btn btn-outline-secondary zoom_group" id="minus">
+              <img src="./assets/minus.png" alt="expand">
+            </button>
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle zoom_group"
+                data-bs-toggle="dropdown" aria-expanded="false" id="photo">
+                <img src="./assets/photo.png" alt="expand">
+              </button>
+            </div>
+            <button type="button" class="btn btn-outline-secondary zoom_group" id="delete-group">Delete group</button>
+          </div>
+          <iframe src="Plastic_bins.html" width="100%" height="90%" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </offer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

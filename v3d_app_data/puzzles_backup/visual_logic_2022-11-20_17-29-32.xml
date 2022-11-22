@@ -1,0 +1,1781 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1195" scrolly="610.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="e3SMIsifR-e.+=LI2`_3" x="-770" y="-430">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="741.0974985870707" scrolly="-466.11249979477725" scale="0.7462153966366274">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="Po!:u-`h/PUFjw}ra/^F" type="">cloned_obj_01</variable>
+      <variable id="h:f~1Y}/-xox`:J8gjj_" type="">i</variable>
+      <variable id="yZo?%U|a{qy%]Dx!1+N%" type="">Size_01</variable>
+      <variable id="tS.f_Y`_PoXGc:]{(`X?" type="">Size_02</variable>
+      <variable id="Lxe]c3x,V|;snt)dH~R#" type="">Size_03</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="KdySsHy4bcJ@)^P(!vG." x="-790" y="-90">
+      <value name="VALUE">
+        <shadow type="objectList" id="s/t_^1(XT{mQKN6N^RJD">
+          <field name="FIELDNAME">Racks</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="hide" id="z:(AR}yzf,NlY$q?%Vy6">
+          <value name="VALUE">
+            <shadow type="objectList" id="iS/JaRY=?ze`dZ@~IN*J">
+              <field name="FIELDNAME">Wall_Panels</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="h2,zM|duo,Qy6AE*7n$0">
+              <value name="VALUE">
+                <shadow type="objectList" id="s~VlOwoZ,k-=3u{t(VlI">
+                  <field name="FIELDNAME">Wire_Shelving</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="]u8}[6,/Ts%!lyImz,@d">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="_{,T[OS_ZYg+hx^AItqL">
+                      <field name="FIELDNAME">Rails</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="l//RQE$3`CV!8`0q.{c3">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="+!5P%@$8$KK3dTzAcu).">
+                          <field name="FIELDNAME">Bins_S1</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="qn^?++s=k%gq3Wr#~+|s">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="sL:N0JM)~rVTQJRN+ou;">
+                              <field name="FIELDNAME">Bins_S2</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="o+J1)U0`88W5.WFpeW/+">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="5,_`9o5[#sq2io-+_Ur)">
+                                  <field name="FIELDNAME">Bins_S3</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="hide" id="X-5GE]U_]_BTRUXbfw(z">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="%I,*Zll4+T`*`OSJ!VbV">
+                                      <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="kwX7A_zLlP,k*iBKbOU$">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="g?Q7,lm)`gDr*0x2QFiZ">
+                                          <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="hide" id="e%g:eE5drFP.+{SQ0iLx">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="y`TN;es0o_zP0JC;Ra/P">
+                                              <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="hide" id="UdU97CQn:^{cI]j/FNnm">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id=".I$c83KrGguY/tnx/`6-">
+                                                  <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="hide" id="ZHYtr3A6Ddchb-f1U^lG">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="3Xew;qi{*rb5OmhW_E4h">
+                                                      <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="hide" id="mUseRO?%;{for(1VxgLY">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id=",]81#H2W*O}5NjG$Ra#[">
+                                                          <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="%d?Qa9DR[fR]nJ`jJ2J9" x="-370" y="50">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="6*4@-NRm]+$P3jmbdF#z">
+          <field name="TEXT">wall-panels</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="loadScene" id="efhnJxRg_YIiNSmhA3Lc">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableonprogress="false" enableonerror="false" enablealias="false"></mutation>
+          <value name="URL">
+            <shadow type="text" id="7kEUJVos/T$hkQThmhoI">
+              <field name="TEXT">Plastic_Bins_Demo.gltf</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="show" id="1u3yc2!6OdC(2yV|?[8+">
+              <value name="VALUE">
+                <shadow type="objectList" id="rOY.y)RFgr3YAdF/u-|z">
+                  <field name="FIELDNAME">Wall_Panels</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="}4bqWk}Rgw0:w7)@nGW~">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="(/T?Z@Gj^6+#1h56}H_f">
+                      <field name="FIELDNAME">Racks</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id=".8[+;Br]hD(VWGAwke2J">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="[({diXhB90#Rah8V^W0X">
+                          <field name="FIELDNAME">Wire_Shelving</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="Yb*72x7Z4DjXO+6NDA!e">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="AU*%STmj$[!RV(kkKH$9">
+                              <field name="FIELDNAME">Rails</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="9KSr0dIdlJhn8i=zps:S">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="d(?{Do)l53I9n~XC2($U">
+                                  <field name="FIELDNAME">Bins_S1</field>
+                                </shadow>
+                                <block type="lists_create_with" id=",9g,YI`?mY=%1Ir%XyP;">
+                                  <mutation items="9"/>
+                                  <value name="ADD0">
+                                    <block type="objectList" id="XM]$4UhsSiM-o|Rse.mo">
+                                      <field name="FIELDNAME">Bins_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="objectList" id="gQA92i.d@gqWK(93Yz)G">
+                                      <field name="FIELDNAME">Bins_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="objectList" id="SRZ@+V!=17nB{gaMOm5}">
+                                      <field name="FIELDNAME">Bins_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="objectList" id="7j^|D,L:E:e1A=b-^Ia-">
+                                      <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="objectList" id="`jr:f|X.8zD_$I#Q.EXe">
+                                      <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="objectList" id=".),;.uhQ}JPg-WaHy8Dn">
+                                      <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="objectList" id="eeIGhJ)}VcqnuoCS}b(n">
+                                      <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD7">
+                                    <block type="objectList" id="x[FPY5{kn8}UxHNDBT}I">
+                                      <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD8">
+                                    <block type="objectList" id="o1t^NAyX47Jwnn:KigqN">
+                                      <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="controls_if" id="m,?NP}{({X:I9qD~9TAE">
+                                  <value name="IF0">
+                                    <block type="isObjectVisible" id="[[U{KU|c9;d@0_~~TwBa">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="utCXTe.TasbdWWnI$bg^">
+                                          <field name="FIELDNAME">Wall_Panels</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <statement name="DO0">
+                                    <block type="eventHTMLElem" id="Nt6?6.}R2MRS|w-9Xk(6">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="Fy/=o6ZKQ~I$}a7.+Xs_">
+                                          <field name="TEXT">size1</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="show" id="XE.XBSMf~70V]%=Du5(]">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="Q7Qcgr%xjaC;PYEfNxLq">
+                                              <field name="FIELDNAME">Bins_S1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="eventHTMLElem" id="yfGTj}64M,9`(?sZ~-id">
+                                          <field name="EVENT">click</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="ID">
+                                            <shadow type="text" id="E@zuoc867Dn?Tvt1rN0i">
+                                              <field name="TEXT">size2</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="ZjJjh=ML^z:uHc$u3P:)">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="Rj%F0;9k*~FG{?bLK[~M">
+                                                  <field name="FIELDNAME">Bins_S2</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="eventHTMLElem" id="xusm#dT0az4~4~lV@[W7">
+                                              <field name="EVENT">click</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="ID">
+                                                <shadow type="text" id=")tbx@:HN0P9,XjZW/M.l">
+                                                  <field name="TEXT">size3</field>
+                                                </shadow>
+                                              </value>
+                                              <statement name="DO">
+                                                <block type="hide" id="q]BL;=`Hq)9iZ`TUnYc5">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="YIaf-14lt2Yd9J*e(TNH">
+                                                      <field name="FIELDNAME">Bins_S3</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="eventHTMLElem" id="(%e1O[[DgC3/=*Y!4uNe">
+                                                  <field name="EVENT">click</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="ID">
+                                                    <shadow type="text" id="IQotZL^9k/Ryi2|55#+p">
+                                                      <field name="TEXT">size1</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <statement name="DO">
+                                                    <block type="hide" id="6_.BeO6`GGVVWjc|vdRn">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="~=_#FK*VxvW#5O;.F^zc">
+                                                          <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                  <next>
+                                                    <block type="eventHTMLElem" id="NfOczN_$x3W+D8#$b{[.">
+                                                      <field name="EVENT">click</field>
+                                                      <field name="PARENT">TRUE</field>
+                                                      <value name="ID">
+                                                        <shadow type="text" id="[/p]C@;hL!OQ~S=d{-~m">
+                                                          <field name="TEXT">size2</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <statement name="DO">
+                                                        <block type="hide" id="|..6S5K8f9CQ,#(C=z-g">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="UU1=bqr+l{N,R?V|$Hh2">
+                                                              <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="eventHTMLElem" id="Yd@Af=0R?O1FPY[e;$P`">
+                                                          <field name="EVENT">click</field>
+                                                          <field name="PARENT">TRUE</field>
+                                                          <value name="ID">
+                                                            <shadow type="text" id="%/]++2XBql(Qc.STRUYM">
+                                                              <field name="TEXT">size3</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <statement name="DO">
+                                                            <block type="hide" id="S#{*-}]Ff#VWk4V?[aSF">
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="2bO//bbK7RBw`iY!p7Sm">
+                                                                  <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Lzm/+!$SL^3,6MO})sXj" x="290" y="50">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="bjM~}-bOrxa,:SXREC=C">
+          <field name="TEXT">racks</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="loadScene" id="-91Z,|ty.HeDKEGNZtOK">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableonprogress="false" enableonerror="false" enablealias="false"></mutation>
+          <value name="URL">
+            <shadow type="text" id="HzLb7mq)tGiFJpcE3S#X">
+              <field name="TEXT">Plastic_Bins_Demo.gltf</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="hide" id="z`FP6)Hev3n}[/R,rv^J">
+              <value name="VALUE">
+                <shadow type="objectList" id="4E]5`kbKg7,=ycgli5_.">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="fuDhQTa,0y-s%eBLH4i6">
+                  <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                </block>
+              </value>
+              <next>
+                <block type="show" id="8R0A`)1CWv_k0+2Kgl7Y">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="E1eWhCd:NSbs(p{!U`a(">
+                      <field name="FIELDNAME">Racks</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="Q!*(m]DWN6$z-So{7{%9">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="0hlND!AV!9U3a}V-hmlD">
+                          <field name="FIELDNAME">Wall_Panels</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="VqcTc/tPasaLkOLUUAFo">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="o*|ams77Nx@(:CZktRc[">
+                              <field name="FIELDNAME">Wire_Shelving</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="#2C:GBGYM$LGB^C4v;7R">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="3bVNb(!8uEiP6=WhxWWM">
+                                  <field name="FIELDNAME">Rails</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="hide" id="]#3Pk~k3}0dJi~K?p@q%">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="+)VpjA8Pv[U4x$P5=/2n">
+                                      <field name="FIELDNAME">Bins_S1</field>
+                                    </shadow>
+                                    <block type="lists_create_with" id="FF_|;:8o$K;,^J#Vmv}a">
+                                      <mutation items="9"/>
+                                      <value name="ADD0">
+                                        <block type="objectList" id="tFnp$6Hs+-lxPDhiLe0j">
+                                          <field name="FIELDNAME">Bins_S1</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD1">
+                                        <block type="objectList" id="]ng_tfHjmVsZVnW[E84m">
+                                          <field name="FIELDNAME">Bins_S2</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD2">
+                                        <block type="objectList" id=";Vao4]Wq2Et%dPLc]1J0">
+                                          <field name="FIELDNAME">Bins_S3</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD3">
+                                        <block type="objectList" id="cDSzuYa]mV_#NYVgEX7+">
+                                          <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD4">
+                                        <block type="objectList" id="c{v5A3=+9CX@5;_5XF;e">
+                                          <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD5">
+                                        <block type="objectList" id="X$}ifDz#uM}6.7xv;Y=|">
+                                          <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD6">
+                                        <block type="objectList" id="bVM2.$-l~{3MZRI.K-L+">
+                                          <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD7">
+                                        <block type="objectList" id="Z.:opW8BjCA,?Z7Vgph]">
+                                          <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                                        </block>
+                                      </value>
+                                      <value name="ADD8">
+                                        <block type="objectList" id="9sW*{f4FD-F;aLYN6_(D">
+                                          <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="controls_if" id="}=dFueFre/={zouUf1}R">
+                                      <value name="IF0">
+                                        <block type="isObjectVisible" id="y~`]8D_Aw0T~|]*M3msi">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="_r_cxSaF%;$e%Y3|EIgP">
+                                              <field name="FIELDNAME">Racks</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <statement name="DO0">
+                                        <block type="eventHTMLElem" id="z#HCHzboP|TJI@osq:.O">
+                                          <field name="EVENT">click</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="ID">
+                                            <shadow type="text" id="jlXxV%WUjw9VW+EP3jmK">
+                                              <field name="TEXT">size1</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="arZ#40O_#bj-K=fa~I82">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="=/I-`UkLu2w*HPVAq+h@">
+                                                  <field name="FIELDNAME">Bins_S1</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="eventHTMLElem" id="`XuMF*38@}c.BXPKSf4f">
+                                              <field name="EVENT">click</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="ID">
+                                                <shadow type="text" id="H-G(sXL2=2pI)$s/$d/A">
+                                                  <field name="TEXT">size2</field>
+                                                </shadow>
+                                              </value>
+                                              <statement name="DO">
+                                                <block type="show" id="eur{MigLc,[u0#KRL5E6">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="u%0+E0@OV~}7DX^T{A^C">
+                                                      <field name="FIELDNAME">Bins_S2</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="eventHTMLElem" id="O~KrxZ)x!Bl~O,Yk?bVe">
+                                                  <field name="EVENT">click</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="ID">
+                                                    <shadow type="text" id="/@(xJbgMf$N9b}1z?0`-">
+                                                      <field name="TEXT">size3</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <statement name="DO">
+                                                    <block type="show" id="}V[Fba5?@8?9(-SD~HPG">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="!k_a~E}*o`iYf3cIq$r*">
+                                                          <field name="FIELDNAME">Bins_S3</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                  <next>
+                                                    <block type="eventHTMLElem" id="yHHwbVV(SFZ.9LQ4QDfi">
+                                                      <field name="EVENT">click</field>
+                                                      <field name="PARENT">TRUE</field>
+                                                      <value name="ID">
+                                                        <shadow type="text" id=".q3l.ahiRq:Cs-3PKO]U">
+                                                          <field name="TEXT">size1</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <statement name="DO">
+                                                        <block type="hide" id="]3#s0LFDm2TMSC!%SY0W">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="N7.Y*12BGZ[|_?57/kGD">
+                                                              <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="eventHTMLElem" id="RA?lYLJJ9Zi?aX3I5MgQ">
+                                                          <field name="EVENT">click</field>
+                                                          <field name="PARENT">TRUE</field>
+                                                          <value name="ID">
+                                                            <shadow type="text" id="v3dnO-7^?SqOYaHYv.A=">
+                                                              <field name="TEXT">size2</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <statement name="DO">
+                                                            <block type="hide" id="@i^4~j)72Cax-Dq1=J;$">
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="`;r#ebZo1#w3*1w+Cw/.">
+                                                                  <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                          <next>
+                                                            <block type="eventHTMLElem" id="UAr~(1eGb-71^H`_tAzX">
+                                                              <field name="EVENT">click</field>
+                                                              <field name="PARENT">TRUE</field>
+                                                              <value name="ID">
+                                                                <shadow type="text" id="+^((P9%T,!=DAEG?_PS%">
+                                                                  <field name="TEXT">size3</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <statement name="DO">
+                                                                <block type="hide" id="_qiXY(ooT_e|IMwY=aeK">
+                                                                  <value name="VALUE">
+                                                                    <shadow type="objectList" id="i_=o!LDdZ}R:cD]Sm@mP">
+                                                                      <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </statement>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=".er9qI2Y{c7Tja6d%o(e" x="950" y="90">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="`mRQ=+mj=vSl}nhccy1S">
+          <field name="TEXT">wire-shelving</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="loadScene" id="GFx5(%^b#SlS3XNpa0wd">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableonprogress="false" enableonerror="false" enablealias="false"></mutation>
+          <value name="URL">
+            <shadow type="text" id="}@Oy`gbr[{4kCbcmXjZo">
+              <field name="TEXT">Plastic_Bins_Demo.gltf</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="show" id="P#i$R-N:_MZ3EFy;#*5U">
+              <value name="VALUE">
+                <shadow type="objectList" id="FB[pVvbS+{O,9|(RMu`b">
+                  <field name="FIELDNAME">Wire_Shelving</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="PhtBw47/w8elkG?_UR+f">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Op$*$4C2}`,X~DE48^S/">
+                      <field name="FIELDNAME">Wall_Panels</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="Gf:+xx-;3?iQJmVurP:H">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="Hc9H)dptx)J;Oh*88lH5">
+                          <field name="FIELDNAME">Racks</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="H`,To**1Fl696DKsDE93">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="mnK-7rlW.`OY;:yB]|ES">
+                              <field name="FIELDNAME">Rails</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="~H.~n|KtwZJKPrI}040p">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="#D~Pl$[0|5`e59EDx,Lr">
+                                  <field name="FIELDNAME">Bins_S1</field>
+                                </shadow>
+                                <block type="lists_create_with" id="h8(S[?krkJE~v),}-TKA">
+                                  <mutation items="9"/>
+                                  <value name="ADD0">
+                                    <block type="objectList" id="Oz(4xTKz8D]VWPsk^b_l">
+                                      <field name="FIELDNAME">Bins_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="objectList" id="q]3-]MG}hgEkY.5AAE`1">
+                                      <field name="FIELDNAME">Bins_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="objectList" id="7g1}Ld4`*pT($Z^k1j_8">
+                                      <field name="FIELDNAME">Bins_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="objectList" id="(`a[Y[HAve;(]}CnpOjQ">
+                                      <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="objectList" id="+P?R^j?GPVrV]9Zol$F=">
+                                      <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="objectList" id="O=t!A^U%u-{r$(BOF_]J">
+                                      <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="objectList" id="4L$0:uwBnGII=SYCi@ED">
+                                      <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD7">
+                                    <block type="objectList" id="Z~#fbh-4Lx)o#7+)qwEP">
+                                      <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD8">
+                                    <block type="objectList" id="e#|@{ZNP@cL(V#W2ocKs">
+                                      <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="controls_if" id=")0w%CWiK-u3NsVpd*7$z">
+                                  <value name="IF0">
+                                    <block type="isObjectVisible" id="TJ`M!3$HIiw=6t7~aqa0">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="Zz!IEqLUd3wHJCHQL%Dd">
+                                          <field name="FIELDNAME">Wire_Shelving</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <statement name="DO0">
+                                    <block type="eventHTMLElem" id="e,jh+iIX@az*O7#eO_qF">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="i)=Jn1ApXlPNAg-+]DsW">
+                                          <field name="TEXT">size1</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="show" id="?Iwjcf3EyElMqH0~6un}">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id=",t]uuB@j^#I/CQt=Bt({">
+                                              <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="eventHTMLElem" id="oX$(a4P*z![HpcchgL_{">
+                                          <field name="EVENT">click</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="ID">
+                                            <shadow type="text" id="5-vht,mjl%Ix-QXDBgrw">
+                                              <field name="TEXT">size2</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="m:_c[B|`R*vm!vUiHp;l">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="TrJ!yWJDY/VUImp9nFZ(">
+                                                  <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="eventHTMLElem" id="Wh(1j5bB?6q5Rf;T|uZ@">
+                                              <field name="EVENT">click</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="ID">
+                                                <shadow type="text" id="ySvh:wIx^ObR(^tPJAB{">
+                                                  <field name="TEXT">size3</field>
+                                                </shadow>
+                                              </value>
+                                              <statement name="DO">
+                                                <block type="show" id="*zK0Ln%aQ8OElL*v^]aL">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="$uAi9;[^iHx?EpQUsC`a">
+                                                      <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="eventHTMLElem" id="t1PnEdd14qx-23l.RMzL">
+                                                  <field name="EVENT">click</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="ID">
+                                                    <shadow type="text" id="+Q9,G[^+sbV?Xt6UC_?z">
+                                                      <field name="TEXT">size1</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <statement name="DO">
+                                                    <block type="hide" id="/M6l?SHG`{u~WFd`_S)3">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id=".RLIO?lUVk8Q*zc^$SRN">
+                                                          <field name="FIELDNAME">Bins_S1</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                  <next>
+                                                    <block type="eventHTMLElem" id="M(j`V^3/RFrf*6=gn~;:">
+                                                      <field name="EVENT">click</field>
+                                                      <field name="PARENT">TRUE</field>
+                                                      <value name="ID">
+                                                        <shadow type="text" id="j1L+W$qZkR}[3MmZ^s@w">
+                                                          <field name="TEXT">size2</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <statement name="DO">
+                                                        <block type="hide" id=",Uix5iu4xLSh;~mr||8m">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="d=cMsZ/u]d@m}MxBvGUc">
+                                                              <field name="FIELDNAME">Bins_S2</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="eventHTMLElem" id="z6`QFa;;:M75!KR|A_We">
+                                                          <field name="EVENT">click</field>
+                                                          <field name="PARENT">TRUE</field>
+                                                          <value name="ID">
+                                                            <shadow type="text" id="6$5-gC7al/fPqW0nkh28">
+                                                              <field name="TEXT">size3</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <statement name="DO">
+                                                            <block type="hide" id="kMt2tdE2)ChFDNCi/Et^">
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="Q#RchztgFU?,25ff7gI;">
+                                                                  <field name="FIELDNAME">Bins_S3</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="xXH%B_u4MwbP678mI[Ja" x="1630" y="90">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="C%u%ct-os{R{zQnZ2mxa">
+          <field name="TEXT">rails</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="loadScene" id="^mbW^a;$ZA2%3nCG=2jL">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableonprogress="false" enableonerror="false" enablealias="false"></mutation>
+          <value name="URL">
+            <shadow type="text" id="O@xE+S3qIyEbPB]+qr`+">
+              <field name="TEXT">Plastic_Bins_Demo.gltf</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="show" id="X6:K`jsZje0HislJc^Hq">
+              <value name="VALUE">
+                <shadow type="objectList" id="`mZn(]I`6t0K4NF;]t%;">
+                  <field name="FIELDNAME">Rails</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="uJi$$18XGc`OIv.n607M">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="u5ea5!,:dvDo(+tDt(R5">
+                      <field name="FIELDNAME">Wire_Shelving</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id="bNu#$%9}V;f7knFWZjVO">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="2/9?bx*EHfz_xajc$.EE">
+                          <field name="FIELDNAME">Racks</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="R95fJs,;2JzP]9xy@|}_">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="ef^+7.K;.Q]m|;m5Cv}+">
+                              <field name="FIELDNAME">Wall_Panels</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id="T-~*Z]Uu^(tNm(kIGp*3">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="JEkb/eC/KJj0W5mzU~=W">
+                                  <field name="FIELDNAME">Bins_S1</field>
+                                </shadow>
+                                <block type="lists_create_with" id="TM?ju-awdOIb;9~rP=NL">
+                                  <mutation items="9"/>
+                                  <value name="ADD0">
+                                    <block type="objectList" id="T7tK?eeTB;~(@!/1@L{|">
+                                      <field name="FIELDNAME">Bins_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="objectList" id="`p[R!y,(b(zCrf{m1qb^">
+                                      <field name="FIELDNAME">Bins_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="objectList" id="0ef}QmCVfvI`ow9Q#T#V">
+                                      <field name="FIELDNAME">Bins_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="objectList" id="h86TFR[e*z.?,6-rZ+tz">
+                                      <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="objectList" id="ts^svzK(BcHu0+6s}KNg">
+                                      <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="objectList" id="~:miwA[!eBFftQ9A]_u^">
+                                      <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="objectList" id="kD`fV9.:0tQrL?B02S%c">
+                                      <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD7">
+                                    <block type="objectList" id="/=AXEeqG)}wPnUk+%Q|Y">
+                                      <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD8">
+                                    <block type="objectList" id="u.kF.UAPZvmn)4g`u_)j">
+                                      <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="controls_if" id="B)F.M@.vhzW6fv1a#0+T">
+                                  <value name="IF0">
+                                    <block type="isObjectVisible" id="/M.EIO,X0#weu:,P66H,">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="m$bbB42:y48{P;$I=oIO">
+                                          <field name="FIELDNAME">Rails</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <statement name="DO0">
+                                    <block type="eventHTMLElem" id="1|@]phLhJB7R1;)-8?qQ">
+                                      <field name="EVENT">click</field>
+                                      <field name="PARENT">TRUE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="Yd{y@iI6W2avhE1H%.)Y">
+                                          <field name="TEXT">size1</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="show" id="I$tV|rSbN1eyzU014F/]">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="]qR=,djyPbA*vDiu5~IH">
+                                              <field name="FIELDNAME">Bins_S1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="eventHTMLElem" id="i05g$%,c]%kbfqjbCiYj">
+                                          <field name="EVENT">click</field>
+                                          <field name="PARENT">TRUE</field>
+                                          <value name="ID">
+                                            <shadow type="text" id="x^r0fym8C37v.gN#77^}">
+                                              <field name="TEXT">size2</field>
+                                            </shadow>
+                                          </value>
+                                          <statement name="DO">
+                                            <block type="show" id="kLv~xf-(6BLLeR6CA.Qf">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="r4Xk#tAnco16k[g2_9}y">
+                                                  <field name="FIELDNAME">Bins_S2</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </statement>
+                                          <next>
+                                            <block type="eventHTMLElem" id="))vP02YvS!AakLi{|#iO">
+                                              <field name="EVENT">click</field>
+                                              <field name="PARENT">TRUE</field>
+                                              <value name="ID">
+                                                <shadow type="text" id="PLd2j^F28mf;(qRc*sT`">
+                                                  <field name="TEXT">size3</field>
+                                                </shadow>
+                                              </value>
+                                              <statement name="DO">
+                                                <block type="show" id="Dbsv3]DSX*z,/o6$e8B+">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="n1dr=!Y4TJe%`iBtC:2z">
+                                                      <field name="FIELDNAME">Bins_S3</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </statement>
+                                              <next>
+                                                <block type="eventHTMLElem" id="Ry.Ex2[2*vvXUDWh}C-E">
+                                                  <field name="EVENT">click</field>
+                                                  <field name="PARENT">TRUE</field>
+                                                  <value name="ID">
+                                                    <shadow type="text" id="SO:$s_?kPzZe0+y.TRbg">
+                                                      <field name="TEXT">size1</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <statement name="DO">
+                                                    <block type="hide" id="#mS:t|M!0KKff?x%[])u">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="}B(xtQnagIbA%{5-,0Q,">
+                                                          <field name="FIELDNAME">Bins_Shelving_S1</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                  <next>
+                                                    <block type="eventHTMLElem" id="1F1#1}8~:q)HEQeY+lF[">
+                                                      <field name="EVENT">click</field>
+                                                      <field name="PARENT">TRUE</field>
+                                                      <value name="ID">
+                                                        <shadow type="text" id="^gK_[dJrr+;UzX:@t1fm">
+                                                          <field name="TEXT">size2</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <statement name="DO">
+                                                        <block type="hide" id="wR7JUqvFZ4`kws-QRa5;">
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="*O^O[aa)hz5;Cz.90Tag">
+                                                              <field name="FIELDNAME">Bins_Shelving_S2</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </statement>
+                                                      <next>
+                                                        <block type="eventHTMLElem" id="I`G_r2.mKy(U96jY-Z]/">
+                                                          <field name="EVENT">click</field>
+                                                          <field name="PARENT">TRUE</field>
+                                                          <value name="ID">
+                                                            <shadow type="text" id="Nz-F-XEKJAl^J./gn/Sz">
+                                                              <field name="TEXT">size3</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <statement name="DO">
+                                                            <block type="hide" id="1sFq.fU.i.D{9+Ztx1?R">
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="8XCT:/ab|zyy0~Q/^7|*">
+                                                                  <field name="FIELDNAME">Bins_Shelving_S3</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="|+H6adydcq`)t02F@Lb@" x="-890" y="1150">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=".CiO9;_A6O+EQ57n[ejt">
+          <field name="FIELDNAME">Bins_S1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="h]$|{ywX6hhN~#u[Yzgs">
+          <value name="VALUE">
+            <shadow type="objectList" id="bu0(:AGHZ(;iVJqZ?k$M">
+              <field name="FIELDNAME">Btn_dublicate_r_01</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="POW}_omzqsM_j+iY[H]L">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="KQh^hGgTls0R{)i~6sm^">
+              <field name="FIELDNAME">Bins_S2</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="show" id="B2P0V77m*M6Mp]9eL`)a">
+              <value name="VALUE">
+                <shadow type="objectList" id="j!)I*$8zkcl2/H]p,glz">
+                  <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="LSXQ9/n|[=K_%#`1Qn+F">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="cMhWkf{|3=3jXI~Pkh]!">
+                  <field name="FIELDNAME">Bins_S3</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="show" id="7L)m3apY{?N!oh?1f-|a">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Jy;;hYg!cr:Z;ahg2{0T">
+                      <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="P[4Zbz@G/o(B^FB[tHjA" x="-510" y="1170">
+      <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+      <value name="VALUE">
+        <block type="lists_create_empty" id="?K4(Tn74[XGZP{7bI(0!"/>
+      </value>
+      <next>
+        <block type="whenClicked" id="^5y4~qa[;%-GoU,#5%ls">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="PkJ-zb-7lA`}1T,OJf[n">
+              <field name="FIELDNAME">Btn_dublicate_r_01</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="hide" id="v==|TeYllu?!+MQ-%K-#">
+              <value name="VALUE">
+                <shadow type="objectList" id="hfJVbn)H6mg~s.?xu,jk">
+                  <field name="FIELDNAME">Btn_dublicate_r_01</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="controls_for" id="zgX+5I0x#Ox5B;zpWQf|">
+                  <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                  <value name="FROM">
+                    <shadow type="math_number" id="b:3a:D7Na]5|i!B0ea(P">
+                      <field name="NUM">0.15</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="mo-c(kuO5jI-]_L%_l#S">
+                      <field name="NUM">1.1</field>
+                    </shadow>
+                  </value>
+                  <value name="BY">
+                    <shadow type="math_number" id="S!uwf~k$n^fN@hbT]0O%">
+                      <field name="NUM">0.15</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="Dc::`,9ujk~.L,yIV+05">
+                      <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+                      <value name="VALUE">
+                        <block type="cloneObject" id="N*zEDI90Gvc6#pCfirQw">
+                          <value name="OBJECTINPUT">
+                            <shadow type="objectList" id="26%b{0;|GUF{+a)h@$7F">
+                              <field name="FIELDNAME">Bins_S1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setObjTransform" id="dgO=m++Te[MT0{#g`Ln#">
+                          <field name="MODE">position</field>
+                          <field name="OFFSET">TRUE</field>
+                          <value name="TARGETOBJ">
+                            <shadow type="objectList" id="T13+J^1yLt+3sS}*yy{0">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="cloneObject" id="M}X{JAq,z7XJgvMZs~n7">
+                              <value name="OBJECTINPUT">
+                                <shadow type="objectList" id="c4HXEO)C+H3CJT(lg(oI">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="variables_get" id="bqPmw7{|?t1x6/=zdJ,R">
+                                  <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <value name="X">
+                            <block type="variables_get" id="GN*Z+By_fPp[)_YbFV3o">
+                              <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="lists_setIndex" id="R!fdfr[:zVm@Qz6,?])!">
+                              <mutation at="false"/>
+                              <field name="MODE">INSERT</field>
+                              <field name="WHERE">LAST</field>
+                              <value name="LIST">
+                                <block type="variables_get" id="99=J^g]aj#Ia5-/_R/$X">
+                                  <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <block type="variables_get" id="VG!/ldHlI8@)KY[LjD6H">
+                                  <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="3TO8n#}FdR@pOCx:`L)7">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="@3@J:I?CouUGaOlOH+P(">
+                  <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="hide" id="lag6?zd1:M#1RIC5L2Z=">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="jz9bw8f-4T=[x+~Q(b2c">
+                      <field name="FIELDNAME">Btn_dublicate_r_02</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="controls_for" id="7mmI.Tp/,0erLa,@4[2R">
+                      <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                      <value name="FROM">
+                        <shadow type="math_number" id="(t*fd6H8]N6])ueD(kL0">
+                          <field name="NUM">0.22</field>
+                        </shadow>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="|aZf-]fUA__$$0-Qxc7h">
+                          <field name="NUM">1.1</field>
+                        </shadow>
+                      </value>
+                      <value name="BY">
+                        <shadow type="math_number" id="1U@XHoO~L*DoiOgkC%Au">
+                          <field name="NUM">0.22</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="variables_set" id="~u]G0BQW*M_9wZp}zby[">
+                          <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                          <value name="VALUE">
+                            <block type="cloneObject" id="[Z{Go~ocI/!!!8$O2Bre">
+                              <value name="OBJECTINPUT">
+                                <shadow type="objectList" id="telX+dpkYyFY^aA(el5E">
+                                  <field name="FIELDNAME">Bins_S2</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="setObjTransform" id=":bzGQ5E:XJJYV$86VtUs">
+                              <field name="MODE">position</field>
+                              <field name="OFFSET">TRUE</field>
+                              <value name="TARGETOBJ">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="cloneObject" id="Bs64sgJ]0cQV)tko$uGV">
+                                  <value name="OBJECTINPUT">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="variables_get" id="$iMGX~DCa~i)IETEe]lY">
+                                      <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <value name="X">
+                                <block type="variables_get" id="Y.,gC!|:,RD@^,x[amGX">
+                                  <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="lists_setIndex" id="PK6nkcWeUIwr$azqYlj=">
+                                  <mutation at="false"/>
+                                  <field name="MODE">INSERT</field>
+                                  <field name="WHERE">LAST</field>
+                                  <value name="LIST">
+                                    <block type="variables_get" id="82=X~{o^^!w)nqYz8*H#">
+                                      <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                                    </block>
+                                  </value>
+                                  <value name="TO">
+                                    <block type="variables_get" id=".SY/pd7wlW%ItZ%q^gKf">
+                                      <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="kQOCTY1P,]B`JGQB/A0!">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="RB.Z@yip%f+Iyz*0y-oe">
+                      <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="hide" id="?~Jpkc.*Zm_T=A$2![|)">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="/^~x{[ZyjkDCN%$*r{W6">
+                          <field name="FIELDNAME">Btn_dublicate_r_03</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="controls_for" id="}Mo-^0YcW3yi:{-XcZBC">
+                          <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                          <value name="FROM">
+                            <shadow type="math_number" id="IKj23R%9b1kcX%_7}lap">
+                              <field name="NUM">0.25</field>
+                            </shadow>
+                          </value>
+                          <value name="TO">
+                            <shadow type="math_number" id="KuMHevnsIV8G79L(f@-l">
+                              <field name="NUM">1.1</field>
+                            </shadow>
+                          </value>
+                          <value name="BY">
+                            <shadow type="math_number" id="|C{i_ZCi.Y=!6sqr~8tU">
+                              <field name="NUM">0.25</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="variables_set" id="LtBU./koVo%@oh-X!`|J">
+                              <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                              <value name="VALUE">
+                                <block type="cloneObject" id="%KkS[f295m[@iroZ*e?#">
+                                  <value name="OBJECTINPUT">
+                                    <shadow type="objectList" id="~Jg3LrqRB*]uRIs?y4c}">
+                                      <field name="FIELDNAME">Bins_S3</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setObjTransform" id="yyfuSeit$+LC)nw?@Sm^">
+                                  <field name="MODE">position</field>
+                                  <field name="OFFSET">TRUE</field>
+                                  <value name="TARGETOBJ">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="cloneObject" id="q|n!gE#P-18O,@Z{V]]_">
+                                      <value name="OBJECTINPUT">
+                                        <shadow type="objectList">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="variables_get" id="ucm)L]uGCprD]hnIYJ4W">
+                                          <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="X">
+                                    <block type="variables_get" id="CIVm#6gIFJj6WMc9F_Et">
+                                      <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="lists_setIndex" id="aum$qYqm/IMCh@g.Z-O=">
+                                      <mutation at="false"/>
+                                      <field name="MODE">INSERT</field>
+                                      <field name="WHERE">LAST</field>
+                                      <value name="LIST">
+                                        <block type="variables_get" id="l$.s{bT#of|6BFiqoYe[">
+                                          <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                                        </block>
+                                      </value>
+                                      <value name="TO">
+                                        <block type="variables_get" id="gORuliSaOC;39uL*gT/o">
+                                          <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="HS?T(y_7c:b4%vIJA]{2" x="270" y="1190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="9iG*hZ,7|N^lAjlmE@,C">
+          <field name="FIELDNAME">Bins_Shelving_S1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_for" id="c{3D~.Ce{th20:plo%!X">
+          <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+          <value name="FROM">
+            <shadow type="math_number" id="`.17#6*Aul?cylfb__8t">
+              <field name="NUM">0.15</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id="7o5+_A~jhb~}if-eo.Gy">
+              <field name="NUM">1.4</field>
+            </shadow>
+          </value>
+          <value name="BY">
+            <shadow type="math_number" id=".;CUS!kvecDki$Z1+YMY">
+              <field name="NUM">0.15</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="variables_set" id="O7U=mm}|o+rPU;ny~TwV">
+              <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+              <value name="VALUE">
+                <block type="cloneObject" id="OHW~dLTC7VleY:l|/ca[">
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="?*.E625)k1[]RG.{CEcs">
+                      <field name="FIELDNAME">Bins_Shelving_S1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="setObjTransform" id="Y4p1?7vsPb?8u}#l?-F.">
+                  <field name="MODE">position</field>
+                  <field name="OFFSET">TRUE</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="cloneObject" id="O.;R]I=9NBf{5Ay-K6m#">
+                      <value name="OBJECTINPUT">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="variables_get" id="mn))Tja|77zgk6_[^|vv">
+                          <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="X">
+                    <block type="variables_get" id="N=+BoL=OOI5~OY-=Gy*,">
+                      <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="lists_setIndex" id="xjDu%z`u|S.u37OZd6em">
+                      <mutation at="false"/>
+                      <field name="MODE">INSERT</field>
+                      <field name="WHERE">LAST</field>
+                      <value name="LIST">
+                        <block type="variables_get" id="wMQe:0(kdyyEUfgs[c!z">
+                          <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <block type="variables_get" id="PUww.cg6q-BMG=,^0mSP">
+                          <field name="VAR" id="yZo?%U|a{qy%]Dx!1+N%">Size_01</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="eYjvwF]`uTeErreo:}st">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="+@LatDi$^fu|hnqI]=U[">
+              <field name="FIELDNAME">Bins_Shelving_S2</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="controls_for" id="UlvNuhI+.MbN+*l%8lCs">
+              <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+              <value name="FROM">
+                <shadow type="math_number" id="fOwmqM-%}jT_TIF.Swq+">
+                  <field name="NUM">0.22</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="_M(5mg,?vuUD#e5m?S{v">
+                  <field name="NUM">1.4</field>
+                </shadow>
+              </value>
+              <value name="BY">
+                <shadow type="math_number" id="c2v|=~ir0ZZ52spF-;Qr">
+                  <field name="NUM">0.22</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="[mvqeV`)o?p.]y[KiA;2">
+                  <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                  <value name="VALUE">
+                    <block type="cloneObject" id="M#avGrE?pnv)Y5uaxtvE">
+                      <value name="OBJECTINPUT">
+                        <shadow type="objectList" id="Cplhc=TOoflXyQ{3`Rmp">
+                          <field name="FIELDNAME">Bins_Shelving_S2</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setObjTransform" id="C:I@,g-a9M8ux?g)UFB*">
+                      <field name="MODE">position</field>
+                      <field name="OFFSET">TRUE</field>
+                      <value name="TARGETOBJ">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="cloneObject" id="Hv#Pfe]Vhua)$[1`jyWd">
+                          <value name="OBJECTINPUT">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="variables_get" id="8Q-3W.0PQaOa_Y=_~)P4">
+                              <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <value name="X">
+                        <block type="variables_get" id="pHDay~Ppfz*Ut3cPO;b7">
+                          <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="lists_setIndex" id=",Gn{POdJ^].QOD1|V*$0">
+                          <mutation at="false"/>
+                          <field name="MODE">INSERT</field>
+                          <field name="WHERE">LAST</field>
+                          <value name="LIST">
+                            <block type="variables_get" id="A~y!n1.,ops]_AovsZ%4">
+                              <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                            </block>
+                          </value>
+                          <value name="TO">
+                            <block type="variables_get" id="4K2bEO0dfu2dhAziO|^C">
+                              <field name="VAR" id="tS.f_Y`_PoXGc:]{(`X?">Size_02</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="t#3?N@@e]1XjUkm1No4y">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="Z7V/s@TcDKX^OAIVlqZ2">
+                  <field name="FIELDNAME">Bins_Shelving_S3</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="controls_for" id="yh4SQacuW3,/:+gq$Ck4">
+                  <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                  <value name="FROM">
+                    <shadow type="math_number" id="SMI]mX=@jyz]-Rdi0aZE">
+                      <field name="NUM">0.3</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id=".I[,Hw6^-v,oFtd`h{}3">
+                      <field name="NUM">1.2</field>
+                    </shadow>
+                  </value>
+                  <value name="BY">
+                    <shadow type="math_number" id="Uyz?1^N9?P2Z;8/%[Lo7">
+                      <field name="NUM">0.3</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="vb9kj~M1Z|$d$xG~dnlo">
+                      <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                      <value name="VALUE">
+                        <block type="cloneObject" id="%duvY,5_{C!,O`K.Cx{3">
+                          <value name="OBJECTINPUT">
+                            <shadow type="objectList" id="2e{j3Nw_UlG#KlJ23;D9">
+                              <field name="FIELDNAME">Bins_Shelving_S3</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setObjTransform" id="cZDSOLmx-[4rIkIb^,@D">
+                          <field name="MODE">position</field>
+                          <field name="OFFSET">TRUE</field>
+                          <value name="TARGETOBJ">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="cloneObject" id=")@sPSjZ(J)Q[czKzuQ+5">
+                              <value name="OBJECTINPUT">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="variables_get" id="EWahD8uleWY/ii0Wjtzz">
+                                  <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <value name="X">
+                            <block type="variables_get" id="^7mXMc$@7)2lN9}z,:ex">
+                              <field name="VAR" id="h:f~1Y}/-xox`:J8gjj_">i</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="lists_setIndex" id="E;sZuW5mEK0ySK:{}@k%">
+                              <mutation at="false"/>
+                              <field name="MODE">INSERT</field>
+                              <field name="WHERE">LAST</field>
+                              <value name="LIST">
+                                <block type="variables_get" id=".keOFaZ2xofTcU@Cgblp">
+                                  <field name="VAR" id="Po!:u-`h/PUFjw}ra/^F">cloned_obj_01</field>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <block type="variables_get" id="uCh9!AvYIZI[0x@l}Uc6">
+                                  <field name="VAR" id="Lxe]c3x,V|;snt)dH~R#">Size_03</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="648.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

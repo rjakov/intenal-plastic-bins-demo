@@ -1,0 +1,77 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="1195" scrolly="610.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="e3SMIsifR-e.+=LI2`_3" x="-770" y="-430">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1039.4444580078125" scrolly="499.5555419921875" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="KdySsHy4bcJ@)^P(!vG." x="-190" y="-10">
+      <value name="VALUE">
+        <shadow type="objectList" id="s/t_^1(XT{mQKN6N^RJD">
+          <field name="FIELDNAME">Free-standing_Racks</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="hide" id="z:(AR}yzf,NlY$q?%Vy6">
+          <value name="VALUE">
+            <shadow type="objectList" id="iS/JaRY=?ze`dZ@~IN*J">
+              <field name="FIELDNAME">Free-standing_Wire_Shelving</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="h2,zM|duo,Qy6AE*7n$0">
+              <value name="VALUE">
+                <shadow type="objectList" id="s~VlOwoZ,k-=3u{t(VlI">
+                  <field name="FIELDNAME">Louvered_Wall_Panels</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="eventHTMLElem" id="%d?Qa9DR[fR]nJ`jJ2J9">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="6*4@-NRm]+$P3jmbdF#z">
+                      <field name="TEXT">wall-panels</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="show" id="1u3yc2!6OdC(2yV|?[8+">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="rOY.y)RFgr3YAdF/u-|z">
+                          <field name="FIELDNAME">Louvered_Wall_Panels</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="hide" id="}4bqWk}Rgw0:w7)@nGW~">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="(/T?Z@Gj^6+#1h56}H_f">
+                              <field name="FIELDNAME">Free-standing_Wire_Shelving</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="hide" id=".8[+;Br]hD(VWGAwke2J">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="[({diXhB90#Rah8V^W0X">
+                                  <field name="FIELDNAME">Free-standing_Racks</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1518" viewport-y="28" viewport-w="1024" viewport-h="648.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
